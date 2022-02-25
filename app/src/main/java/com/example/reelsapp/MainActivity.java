@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         videoList.add(new Video("android.resource://" + getPackageName() + "/" + R.raw.a,"Barsaat ki Dhun", "Sun sun sun barsaat ki dhun status  barsaat ki dhun song  whatsapp status jubin nautiyal Shorts_v720P"));
         videoList.add(new Video("android.resource://" + getPackageName() + "/" + R.raw.b,"Tumse Pyar Karke", "Tumse Pyar Karke ft Tulsi Kumar  Jubin Nautiyal  Gurmeet Choudhary  Muskan Kalra Shorts_v720P"));
         videoList.add(new Video("android.resource://" + getPackageName() + "/" + R.raw.c,"OAasmanWale", "Jo Dil Diya Tha Tune♥️♥️Toh Fir Dard Kyun Diya _ #OAasmanWale#JubinsJan #ytshorts"));
-        videoList.add(new Video("android.resource://" + getPackageName() + "/" + R.raw.d,"Dhoka", "Dhoka Song Status Arijit Singh dhokasong trending tseries shorts status arijitsinghsong viral_v720P"));
+        videoList.add(new Video("android.resource://" + getPackageName() + "/" + R.raw.d,"Dhoka", "Dhoka Song Status trending tseries shorts status viral_v720P"));
 
         adapter = new VideoAdapter(videoList);
         viewPager2.setAdapter(adapter);
